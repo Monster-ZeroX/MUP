@@ -1,0 +1,36 @@
+{
+    "name": "Multi Upload",
+    "description": "A Powerful Base For Telethon Bots",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+		"TelethonBase",
+		"Lucifeermorningstar",
+		"DaisyX",
+        "Devil"
+    ],
+    "repository": "https://github.com/lucifeermorningstar/telethonbase",
+    "website": "https://github.com/lucifeermorningstar/TelethonBase",
+    "success_url": "https://t.me/Daisyxupdates",
+    "env": {
+        "API_HASH": {
+            "description": "Api Hash",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Api Id",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot Token That You Got From @botfather",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
